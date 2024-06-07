@@ -25,3 +25,14 @@ Here is a quick view of the form:
 <img width="341" alt="image" src="https://github.com/C-Brq/VosReves/assets/156824818/97d13ccf-4fca-4c96-bcbf-e938332dbc5b">
 
 # 3 Description of the Program
+The Program is made to limit the user error to the maximum by preserving the errors from the inputs.
+
+The program checks the type of printer and such parameters like the different references, The Spreadsheet has 3 pages:
+
+The first spreadsheet is the printers
+
+The second spreadsheet is the consummables and such.
+
+And the third spreadsheet is the brands that are accepted and the ID linked to the brand and also includes the brand of the consummables, in addition the type of printer is error checked, by using data : a laser printer can't be linked with a ink consummable.
+
+On the second spreadsheet there is an autoconcatenation for the references, that way the user doesn't have to type the brand of the consummable and just has to type the new reference to add, this also allows no errors linked to similar references while being different brands.
