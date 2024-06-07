@@ -50,6 +50,7 @@ Here is the raw code used in the .XLS:
 
 
 Here is the code for the Function to find the first empty line in the sheet "Printers":
+
 <code>Sub TrouverPremiereLigneVideImprimante()
     Dim ws As Worksheet
     Set ws = ThisWorkbook.Worksheets(Imprimante) ' Remplacez "Nom de la feuille" par le nom de votre feuille
@@ -66,6 +67,7 @@ Here is the code for the Function to find the first empty line in the sheet "Pri
 End Sub</code>
 
 Here is the code for the Function to find the first empty line in the sheet "Consummable":
+
 <code>Sub TrouverPremiereLigneVideConsommable()
     Dim ws As Worksheet
     Set ws = ThisWorkbook.Worksheets(Consommable) ' Remplacez "Nom de la feuille" par le nom de votre feuille
@@ -82,6 +84,7 @@ Here is the code for the Function to find the first empty line in the sheet "Con
 End Sub</code>
 
 Here is the code for the "UserForm_Example" (consummables):
+
 <code>Private Sub ComboBox1_Change()
 End Sub
 Private Sub ComboBox2_Change()
@@ -233,6 +236,7 @@ Sub lancerUserform()
 End Sub</code>
 
 Here is the code for the UserForm_Imp :
+
 <code> Private Sub ComboBoxMarqueImp_Change()
 
 End Sub
