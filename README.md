@@ -5,6 +5,8 @@
 
 [# 3-Description of the Program](#3-description-of-the-program)
 
+[# 4-Raw Code](#4-raw-code)
+
 # 1-Project Overview
 This project has for objective to allow users to add printers to a list with the consummables, the main objective behind the project is the use of the coding language VBA.
 
@@ -42,3 +44,5 @@ The second spreadsheet is the consummables and such.
 And the third spreadsheet is the brands that are accepted and the ID linked to the brand and also includes the brand of the consummables, in addition the type of printer is error checked, by using data : a laser printer can't be linked with a ink consummable.
 
 On the second spreadsheet there is an autoconcatenation for the references, that way the user doesn't have to type the brand of the consummable and just has to type the new reference to add, this also allows no errors linked to similar references while being different brands.
+
+# 4-Raw Code
