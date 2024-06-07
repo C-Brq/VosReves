@@ -1,12 +1,18 @@
+# Contents
+[# 1-Project Overview](#1-project-overview)
 
-# 1 Project Overview
+[# 2-Making of the program](#2-making-of-the-program)
+
+[# 3-Description of the Program](#3-description-of-the-program)
+
+# 1-Project Overview
 This project has for objective to allow users to add printers to a list with the consummables, the main objective behind the project is the use of the coding language VBA.
 
 There is a few tests described in [# 3 Description of the Program](#3-description-of-the-program).
 
 The code is available inside the Spreadsheet.
 
-# 2 Making of the program
+# 2-Making of the program
 The program is using simple VBA trough EXCEL, the program is entirely made by hand and might need some adjustements, it's not perfect in any way but it works and is a proof of concept.
 
 Before making the program we need to first design the User Form that will be completed:
@@ -24,7 +30,7 @@ Here is a quick view of the form:
 
 <img width="341" alt="image" src="https://github.com/C-Brq/VosReves/assets/156824818/97d13ccf-4fca-4c96-bcbf-e938332dbc5b">
 
-# 3 Description of the Program
+# 3-Description of the Program
 The Program is made to limit the user error to the maximum by preserving the errors from the inputs.
 
 The program checks the type of printer and such parameters like the different references, The Spreadsheet has 3 pages:
