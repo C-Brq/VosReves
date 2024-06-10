@@ -69,7 +69,8 @@ End Sub
 
 Here is the code for the Function to find the first empty line in the sheet "Consummable":
 
-<code>Sub TrouverPremiereLigneVideConsommable()
+<code>
+Sub TrouverPremiereLigneVideConsommable()
     Dim ws As Worksheet
     Set ws = ThisWorkbook.Worksheets(Consommable) ' Remplacez "Nom de la feuille" par le nom de votre feuille
     Dim col As Range
@@ -82,14 +83,19 @@ Here is the code for the Function to find the first empty line in the sheet "Con
     Loop
     
     MsgBox "La première ligne vide dans la colonne A est la ligne " & i
-End Sub</code>
+End Sub
+</code>
 
 Here is the code for the "UserForm_Example" (consummables):
 
-<code>Private Sub ComboBox1_Change()
+<code>
+Private Sub ComboBox1_Change()
 End Sub
 Private Sub ComboBox2_Change()
 End Sub
+</code>
+
+<code>
 Private Sub CommandButton1_Click()
     Dim ligne As Long
     Dim colonne As Long
@@ -110,7 +116,8 @@ Private Sub CommandButton1_Click()
     'Association entre le Choixconso et la combobox
     Dim Choixconso As String
     Choixconso = ComboBox5.Value
- 
+</code>
+<code>
  'Limitateur de Type et consommable
  If Choixtype = "LASER" And Choixconso = "encre" Then
     MsgBox "Erreur le type d'imprimante et le Choix de consommables ne sont pas compatibles.", vbExclamation
@@ -126,7 +133,8 @@ If Choixtype = "JET D'ENCRE" And Choixconso = "tambour" Then
     MsgBox "Erreur le type d'imprimante et le Choix de consommables ne sont pas compatibles.", vbExclamation
     Exit Sub
     End If
-       
+</code>
+<code>
        'Association entre les et la combobox
 ws.Cells(PremiereLigne, colonne + 2).Value = Choixconso
 Dim Choixmarque As String
@@ -153,7 +161,8 @@ ElseIf InStr(1, Choixmarque, "XEROX") > 0 Then
 ElseIf InStr(1, Choixmarque, "RICOH") > 0 Then
     Valeur_Référence2 = "RICOH"
 End If
-     
+</code>
+<code>
 Dim Valeur_Référence As String
     Valeur_Référence = TextBox1.Value
 Dim Valeur_RéférenceF As String
@@ -173,7 +182,8 @@ ws.Cells(PremiereLigne, colonne).Value = Valeur_RéférenceF
     Dim Choixcouleur As String
     Choixcouleur = ComboBox4.Value
     ws.Cells(PremiereLigne, colonne + 6).Value = Choixcouleur
-    
+</code>
+<code>
     'Fermeture
     Unload Me
 End Sub
@@ -234,12 +244,10 @@ Private Sub UserForm_Initialize()
 End Sub
 Sub lancerUserform()
     UserForm_Exemple.Show
-End Sub</code>
-
+End Sub
+</code>
 Here is the code for the UserForm_Imp :
-
 <code> Private Sub ComboBoxMarqueImp_Change()
-
 End Sub
 
 Private Sub CommandButton1_Click()
