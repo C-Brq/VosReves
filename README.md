@@ -1,11 +1,11 @@
 # Contents
-[# 1-Project Overview](#1-project-overview)
+[1-Project Overview](#1-project-overview)
 
-[# 2-Making of the program](#2-making-of-the-program)
+[2-Making of the program](#2-making-of-the-program)
 
-[# 3-Description of the Program](#3-description-of-the-program)
+[3-Description of the Program](#3-description-of-the-program)
 
-[# 4-Raw Code](#4-raw-code)
+[4-Raw Code](#4-raw-code)
 
 # 1-Project Overview
 This project has for objective to allow users to add printers to a list with the consummables, the main objective behind the project is the use of the coding language VBA.
