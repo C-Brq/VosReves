@@ -117,6 +117,7 @@ Private Sub CommandButton1_Click()
     Dim Choixconso As String
     Choixconso = ComboBox5.Value
 </code>
+
 <code>
  'Limitateur de Type et consommable
  If Choixtype = "LASER" And Choixconso = "encre" Then
@@ -134,6 +135,7 @@ If Choixtype = "JET D'ENCRE" And Choixconso = "tambour" Then
     Exit Sub
     End If
 </code>
+
 <code>
        'Association entre les et la combobox
 ws.Cells(PremiereLigne, colonne + 2).Value = Choixconso
@@ -162,6 +164,7 @@ ElseIf InStr(1, Choixmarque, "RICOH") > 0 Then
     Valeur_Référence2 = "RICOH"
 End If
 </code>
+
 <code>
 Dim Valeur_Référence As String
     Valeur_Référence = TextBox1.Value
@@ -183,6 +186,7 @@ ws.Cells(PremiereLigne, colonne).Value = Valeur_RéférenceF
     Choixcouleur = ComboBox4.Value
     ws.Cells(PremiereLigne, colonne + 6).Value = Choixcouleur
 </code>
+
 <code>
     'Fermeture
     Unload Me
@@ -246,8 +250,10 @@ Sub lancerUserform()
     UserForm_Exemple.Show
 End Sub
 </code>
+
 Here is the code for the UserForm_Imp :
-<code> Private Sub ComboBoxMarqueImp_Change()
+<code>
+Private Sub ComboBoxMarqueImp_Change()
 End Sub
 
 Private Sub CommandButton1_Click()
